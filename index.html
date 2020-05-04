@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <h1> VISUALISER</h1>
+    <div id="container" class="container">
+      <div class="upper-container">
+        <div id="input" class="input">
+          <label for="">Enter Array Size:</label>
+          <input id="arraySize" type="number" >
+          <button class="button" id="generateArray" >Generate Array</button>
+          <label for="">Enter Search Value:</label>
+          <input id="searchValue" type="number" >
+        </div>
+        <div id="algoAction" class="algoAction">
+          <button class="button" id="linearSearch" >Linear Search</button>
+          <button class="button" id="binarySearch" >Binary Search</button>
+          <button class="button" id="bubbleSort" >Bubble Sort</button>
+          <button class="button" id="selectionSort" >Selection Sort</button>
+          <button class="button" id="reset" >Reset</button>
+        </div>
+      </div>
+      <div class="lower-container">
+        <div id="algo-visualiser" class="algo-visualiser"></div>
+      </div>
+      
+      
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

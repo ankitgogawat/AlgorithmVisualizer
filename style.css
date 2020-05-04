@@ -1,0 +1,24 @@
+
+.algo-visualiser{
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.block {
+    width: 28px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: solid 1px black;
+    background-color: #808080;
+    display: inline-block;
+    transition: 0.2s all ease;
+  }
+
+  .block_id {
+    position: absolute;
+    top: -24px;
+    width: 100%;
+    text-align: center;
+  }
